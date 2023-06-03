@@ -121,7 +121,7 @@ body {
   line-height: var(--bs-body-line-height);
   margin: 0;
   text-align: var(--bs-body-text-align);
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Poppins', sans-serif !important;
 }
 hr {
   background-color: currentColor;
@@ -35068,3 +35068,4 @@ padding: 40px;
   position: sticky;
   top: 100px;
 }
+

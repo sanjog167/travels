@@ -1,0 +1,103 @@
+.destination-menu{
+    position: absolute;
+    bottom: -470px;
+    left: 50%;
+    width: 100%;
+    background: white;
+    transform: translateX(-50%);
+    opacity: 0;
+    display: none;
+    padding: 30px;
+    visibility: hidden;
+    height: 470px;
+  }
+  
+  .menunav .destination-menu{
+    display: block;
+    opacity: 1;
+    visibility: visible;
+    max-width: 60vw;
+    border-radius: 20px;
+  }
+  
+  .submenu-block__item__title {
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 0.3125rem;
+    display: block;
+  }
+  
+  .submenu-block__item a {
+    display: block;
+    color: #6b7f9e;
+    margin-bottom: 10px;
+    font-size: .875rem;
+    line-height: 1.4;
+  }
+  
+  .mobile-menu-overlay {
+    position: initial;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: #000;
+    opacity: 0;
+    -webkit-transition: opacity 0.4s;
+    transition: opacity 0.4s;
+    z-index: -1;
+  }
+  
+  .menunav .mobile-menu-overlay{
+    opacity: 0.5;
+    position: fixed;
+  }
+  
+  .nav-pills .nav-link {
+    color: #6b7f9e;
+  }
+  
+  .nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: #fff;
+    background-color: #FF773D !important;
+  }
+  
+  .rlr-navigation__menu.navigation-menu {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 20px;
+  }
+  
+  .navigation-animated{
+    background-color: white;
+  }
+  
+  .navigation-animated .navigation-link {
+    color: var(--heading-color);
+  }
+  
+  .navigation-animated .navigation-link:hover {
+    color: var(--heading-color) !important;
+  }
+  
+  
+  .navigation-animated .navigation-item.is-active .navigation-link {
+    color: var(--brand-color) !important;
+  }
+  
+  .navigation-animated .rlr-navigation__menu.navigation-menu {
+    top: 6px;
+  }
+  
+  .navigation-animated .rlr-logo--default{
+    display: block;
+  }
+  
+  @media(min-width:1600px){
+    .container{
+      max-width: 1340px !important;
+    }
+  }
+  
+  

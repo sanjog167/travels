@@ -34260,7 +34260,7 @@ width: 20px;
   position: absolute;
   top: -100px;
   width: 100%;
-  left: 50%;
+  left: 65%;
   transform: translateX(-50%);
   border-radius: 16px;
 }
@@ -35027,7 +35027,7 @@ padding: 40px;
 }
 
 .cool_inquiry{
-  border: 1px solid #fff;
+  border: 1px solid #fff !important;
   background: unset;
   color: #fff;
 }
@@ -35069,3 +35069,11 @@ padding: 40px;
   top: 100px;
 }
 
+.booknowtitle{
+  font-size: 17px;
+  padding-bottom: 10px;
+}
+
+.modal-lg{
+  max-width: 900px;
+}
